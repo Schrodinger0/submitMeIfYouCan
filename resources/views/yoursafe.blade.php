@@ -13,7 +13,7 @@
 <body>
     
     <div class="submit-div">
-        <span><i class="fa-regular fa-circle-check fa-bounce"></i>  <h1>Félecitation!</h1></span>
+        <span><i class="fa-regular fa-circle-check fa-bounce"></i>  <h1>Félicitations!</h1></span>
     </div>
 
 </body>
