@@ -76,15 +76,7 @@ background-color: #eee;
 border: none;
 padding: 12px 15px;
 margin: 8px 0;
-width: 125%;
-}
-
-select {
-    background-color: #eee;
-    border: none;
-    padding: 12px 15px;
-    margin: 8px 0;
-    width: 125%;
+width: 100%;
 }
 
 .container {
@@ -93,12 +85,12 @@ border-radius: 10px;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25),
 0 10px 10px rgba(0,0,0,0.22);
 position: relative;
-top: -610px;
+top: -670px;
 left: 380px;
 overflow: hidden;
 width: 768px;
 max-width: 100%;
-min-height: 480px;
+min-height: 610px;
 }
 
 .form-container {
@@ -229,9 +221,8 @@ width: 40px;
 .face{
     position: relative;
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: #ffcd00;
+    height: 319px;
+    background-image: url("3.png");
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -239,7 +230,7 @@ width: 40px;
 }
 
 .face:hover{
-    background: #c3dfa2;
+    background-image: url("2.png");
 }
 
 .face::before{
@@ -248,7 +239,6 @@ width: 40px;
    top: 180px;
    width: 150px;
    height: 70px;
-   background: #b57700 ;
    border-bottom-right-radius: 70px ;
    border-bottom-left-radius: 70px ;
 }
@@ -257,21 +247,20 @@ width: 40px;
     top: 210px;
     width: 150px;
     height: 20px;
-    background: #86a066 ;
     border-bottom-right-radius: 0px ;
     border-bottom-left-radius: 0px ;
 }
 
 .eyes{
     position: relative;
-    top: -40px; 
+    top: -35px; 
     display: flex;
 }
 
 .eyes .eye{
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
     display: block;
     background: #fff;
     margin: 0 15px;
@@ -283,9 +272,54 @@ width: 40px;
     position: absolute;
     top: 50%;
     left: 25px;
-    transform: translate(-50% , -50%);
-    width: 40px;
-    height: 40px;
+    transform: translate(-70% , -50%);
+    width: 35px;
+    height: 35px;
     background: #333;
     border-radius: 50%;
 }
+
+#submit-btn {
+    width: auto;
+    padding: 0 20px;
+    background-color: #5271FF;
+    border: 1px solid transparent;
+    border-radius: .20rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 80px;
+    transition: 0.15s;
+    float: right;
+    cursor: default;
+    -webkit-border-radius: .20rem;
+    -moz-border-radius: .20rem;
+    -ms-border-radius: .20rem;
+    -o-border-radius: .20rem;
+}
+  
+  .submit-div{
+      height: 200px;
+      width: 80%;
+      max-width: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      border-radius: .75rem;
+      border: 1px solid rgba(116, 116, 116, 0.76);
+      background-color: #FFFFFF;
+      box-shadow: 10px 10px 50px rgba(43, 43, 43, 0.247);
+      display: block;
+  }
+  .submit-div i{
+      font-size: 40px;
+      padding-top: 50px;
+      color: #5271FF;
+  }
+  .submit-div h1{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }

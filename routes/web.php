@@ -13,6 +13,9 @@ use App\Http\Controllers\QuestionsController;
 |
 */
 
+Route::get('/', function(){
+    return view('welcome');
+});
 
 Route::get('safe', function () {
     return view('yoursafe');
