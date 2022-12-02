@@ -23,3 +23,4 @@ maintenant servir l'application !
 php artisan serve
 ```
 vérifiez maintenant http://127.0.0.1:8000
+![](https://github.com/Schrodinger0/submitMeIfYouCan/blob/master/example.png)
